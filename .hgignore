@@ -1,0 +1,23 @@
+syntax: glob
+
+*.pyd*
+*.pyc
+*~
+*tmp
+
+\#*\#
+
+Latex/article.pdf
+
+*.log
+*.aux
+*.out
+*.dvi
+*.bbl
+*.blg
+*.glo
+*.ist
+
+auto/*
+
+*.ipynb_checkpoints/*
