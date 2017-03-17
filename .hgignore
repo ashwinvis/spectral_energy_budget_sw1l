@@ -15,8 +15,11 @@ Latex/article.pdf
 *.dvi
 *.bbl
 *.blg
+
 *.glo
 *.ist
+*.gls
+*.glg
 
 auto/*
 

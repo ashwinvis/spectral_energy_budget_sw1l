@@ -3,7 +3,8 @@ name := article
 dir := Latex
 path := $(dir)/$(name)
 
-latex := cd $(dir) && pdflatex $(name).tex
+# latex := cd $(dir) && pdflatex $(name).tex
+latex := cd $(dir) && latex $(name).tex && makeindex $(name).glo -s $(name).ist -t $(name).glg -o $(name).gls && dvipdf $(name).dvi
 
 latex_files := 
 
