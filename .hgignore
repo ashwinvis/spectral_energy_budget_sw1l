@@ -9,6 +9,10 @@ syntax: glob
 
 Latex/article.pdf
 
+*.ps
+*.pdf
+*.nlo
+
 *.log
 *.aux
 *.out
