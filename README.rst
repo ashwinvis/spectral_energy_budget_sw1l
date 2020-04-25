@@ -1,21 +1,36 @@
-Article: Helmholtz decomposition, normal mode decompositon and spectral energy budget for shallow water equations
+Spectral Energy Budget for Shallow Water 1-layer equations
+==========================================================
 
-- make
+These are notes for deriving the shallow water equation energy budget
+which are more formally described in my [Ph.D.
+thesis](https://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Akth%3Adiva-256564) and
+implemented in
+[FluidSim](https://fluidsim.readthedocs.io/en/latest/generated/fluidsim.solvers.sw1l.output.spect_energy_budget.html).
 
-Compile everything (figures + latex).
+Although originally intended for the classical shallow water equations, the
+derivation was extended to examine energetics of a variant of it: a toy-model.
 
-- make clean
+**Keywords**: *Helmholtz decomposition, normal mode decompositon, spectral energy budget, shallow water equations*
 
-Clean the latex files.
+How to
+------
 
-- make cleanall
+Compile everything (figures + latex)::
 
-Clean latex files and figures produced with Python.
+  make
 
-- make pyfig
+Clean the latex files::
 
-Produce figure with Python.
+  make clean
 
-- make help
+Clean everything (figures + latex)::
 
-Display the README.rst file.
+  make cleanall
+
+Produce figure with Python::
+
+  make pyfig
+
+Display help messages::
+
+  make help
